@@ -26,7 +26,6 @@ extern "C" {
 #endif
 
 #include <stdint.h>
-#include "board.h"
 
 /*----------------------------------------------------------------------------
   Define clocks
