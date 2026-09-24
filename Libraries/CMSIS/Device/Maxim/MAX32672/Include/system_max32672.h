@@ -72,13 +72,7 @@ extern "C" {
 
 /* NOTE: ERFO_FREQ (16MHz-32MHz) needs to be defined by user based on the clock they supply */
 #ifndef ERFO_FREQ
-#if defined(BOARD_EVKIT_V1)
 #define ERFO_FREQ 25000000
-#elif defined(BOARD_FTHR)
-#define ERFO_FREQ 24576000
-#else
-#error "Unknown BOARD"
-#endif
 #endif
 
 #ifndef ERTCO_FREQ
